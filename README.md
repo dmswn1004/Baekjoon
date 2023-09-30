@@ -10,4 +10,7 @@ const input = fs.readFileSync("/dev/stdin").toString().trim();
 const input = fs.readFileSync("/dev/stdin").toString().split(" ");
 // 여러줄 입력받을 때
 const input = fs.readFileSync("/dev/stdin").toString().split("\n");
+
+// 간편
+let input = require('fs').readFileSync('/dev/stdin').toString().split(' ');
 ```
