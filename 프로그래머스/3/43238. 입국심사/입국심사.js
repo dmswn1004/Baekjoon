@@ -8,7 +8,6 @@ function solution(n, times) {
     while(start <= end) {
         let mid = parseInt((start + end) / 2);
         let total = 0;
-        let remain = Array.from({length: times.length}, v => 0);
         
         for(let i = 0; i < times.length; i++) {
             total += parseInt(mid / times[i]);
