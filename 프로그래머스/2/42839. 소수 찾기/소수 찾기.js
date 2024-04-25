@@ -32,7 +32,6 @@ function dfs(arr, depth, num, visit) {
 // 소수가 맞는지
 function isPrime(n) {
     if(n < 2) return false;
-    // if(n === 2) return true;
     for(let i = 2; i <= Math.sqrt(n); i++) {
         if(parseInt(n) % i === 0) return false;
     }
